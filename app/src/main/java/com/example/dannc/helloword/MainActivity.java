@@ -1,0 +1,19 @@
+package com.example.dannc.helloword;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.google.gson.Gson;
+
+import org.jdom2.Document;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        Gson g = new Gson();
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Document doc = new Document();
+    }
+}
